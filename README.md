@@ -45,7 +45,9 @@ chrome://extensions
 
 ## 📸 تصاویر افزونه
 
-![alt](assets/images/screenshots/image.png)
+<p align="center">
+  <img src="assets/images/screenshots/image.png" style="width:50%"/>
+</p>
 
 ## 🔄 بروزرسانی افزونه
 
