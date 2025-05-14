@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "DeepSeek RTL Fixer",
+  "version": "1.1",
+  "description": "Fix RTL issues in DeepSeek when using fa lang",
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "src/popup.html",
+    "default_icon": {
+      "16": "assets/images/icon.png",
+      "48": "assets/images/icon.png",
+      "128": "assets/images/icon.png"
+    }
+  },
+  "icons": {
+    "48": "assets/images/icon.png"
+  }
+}

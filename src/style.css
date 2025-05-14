@@ -1,0 +1,77 @@
+:root {
+  --primary-color: #509fff;
+  --primary-bg: #509fffd4;
+  --secondary-bg: #eaf4ff;
+  --bg-color: #eaf4ff;
+  --font: "Vazirmatn", "IRANSans", Tahoma, sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  background-color: var(--bg-color);
+  padding: 10px;
+  margin: 0;
+  direction: rtl;
+}
+
+.fixer__container {
+  border: 1px solid var(--primary-color);
+  border-radius: 12px;
+  padding: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  max-width: 280px;
+}
+
+.fixer__btn {
+  font-family: var(--font);
+  padding: 10px 16px;
+  margin: 6px 0;
+  min-width: 200px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.fixer__btn--primary {
+  background-color: var(--primary-bg);
+  color: #fff;
+}
+
+.fixer__btn--primary:hover {
+  background-color: #3a8be0;
+}
+
+.fixer__btn--secondary {
+  background-color: var(--secondary-bg);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.fixer__btn--secondary:hover {
+  background-color: #d7ecff;
+}
+
+.fixer__description {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #333;
+}
+
+.fixer__link-wrapper {
+  direction: rtl;
+  margin-top: 4px;
+}
+
+.fixer__link {
+  text-decoration: none;
+  color: #3366cc;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.fixer__link:hover {
+  color: #003399;
+}
