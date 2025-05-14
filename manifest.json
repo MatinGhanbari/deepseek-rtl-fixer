@@ -8,12 +8,12 @@
   "action": {
     "default_popup": "src/popup.html",
     "default_icon": {
-      "16": "assets/images/icon.png",
-      "48": "assets/images/icon.png",
-      "128": "assets/images/icon.png"
+      "16": "assets/icons/favicon.png",
+      "48": "assets/icons/favicon.png",
+      "128": "assets/icons/favicon.png"
     }
   },
   "icons": {
-    "48": "assets/images/icon.png"
+    "48": "assets/icons/favicon.png"
   }
 }
